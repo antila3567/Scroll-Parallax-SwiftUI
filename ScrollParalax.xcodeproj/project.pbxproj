@@ -11,6 +11,7 @@
 		DD1097D92B46A0EA00FA8296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1097D82B46A0EA00FA8296 /* ContentView.swift */; };
 		DD1097DB2B46A0EB00FA8296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1097DA2B46A0EB00FA8296 /* Assets.xcassets */; };
 		DD1097DE2B46A0EB00FA8296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1097DD2B46A0EB00FA8296 /* Preview Assets.xcassets */; };
+		DD1097E62B46A11100FA8296 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1097E52B46A11100FA8296 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DD1097D82B46A0EA00FA8296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD1097DA2B46A0EB00FA8296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD1097DD2B46A0EB00FA8296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD1097E52B46A11100FA8296 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		DD1097D52B46A0EA00FA8296 /* ScrollParalax */ = {
 			isa = PBXGroup;
 			children = (
+				DD1097E42B46A10800FA8296 /* View */,
 				DD1097D62B46A0EA00FA8296 /* ScrollParalaxApp.swift */,
 				DD1097D82B46A0EA00FA8296 /* ContentView.swift */,
 				DD1097DA2B46A0EB00FA8296 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				DD1097DD2B46A0EB00FA8296 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD1097E42B46A10800FA8296 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD1097E52B46A11100FA8296 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD1097D92B46A0EA00FA8296 /* ContentView.swift in Sources */,
+				DD1097E62B46A11100FA8296 /* Home.swift in Sources */,
 				DD1097D72B46A0EA00FA8296 /* ScrollParalaxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
